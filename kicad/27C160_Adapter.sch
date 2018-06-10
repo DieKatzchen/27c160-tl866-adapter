@@ -582,6 +582,12 @@ F 3 "" H 9150 6000 60  0001 C CNN
 	1    9150 5750
 	1    0    0    -1  
 $EndComp
+Text GLabel 9650 5000 1    10   UnSpc ~ 0
+GND
+Text GLabel 9850 4700 3    10   UnSpc ~ 0
+GND
+Text GLabel 8650 5650 1    10   UnSpc ~ 0
+VCC
 Wire Wire Line
 	8950 8200 8750 8200
 Wire Wire Line
@@ -657,12 +663,9 @@ Wire Wire Line
 Wire Wire Line
 	8950 7300 8750 7300
 Wire Wire Line
-	9400 5800 10050 5800
-Wire Wire Line
 	10050 5400 10050 6300
 Wire Wire Line
 	10050 6300 9950 6400
-Connection ~ 10050 5800
 Wire Wire Line
 	9750 7300 9950 7300
 Wire Wire Line
@@ -673,12 +676,10 @@ Wire Wire Line
 	9850 6300 9750 6400
 Connection ~ 9850 5700
 Wire Wire Line
-	9400 5600 10750 5600
+	9650 5800 9650 5400
 Wire Wire Line
-	9650 5600 9650 5400
-Wire Wire Line
-	10750 5600 10750 7600
-Connection ~ 9650 5600
+	10750 5800 10750 7600
+Connection ~ 9650 5800
 Wire Wire Line
 	8950 8600 8750 8600
 Wire Wire Line
@@ -842,10 +843,9 @@ Wire Wire Line
 	8900 5750 8650 5750
 Wire Wire Line
 	8650 5750 8650 5600
-Text GLabel 9650 5000 1    10   UnSpc ~ 0
-GND
-Text GLabel 9850 4700 3    10   UnSpc ~ 0
-GND
-Text GLabel 8650 5650 1    10   UnSpc ~ 0
-VCC
+Wire Wire Line
+	9400 5800 10750 5800
+Wire Wire Line
+	10050 5600 9400 5600
+Connection ~ 10050 5600
 $EndSCHEMATC
