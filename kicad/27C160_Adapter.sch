@@ -276,20 +276,12 @@ Text Label 12950 7400 0    10   ~ 0
 A17
 Text Label 8950 7300 2    10   ~ 0
 A18
-Text Label 9450 5800 0    10   ~ 0
-A18
-Text Label 10050 5400 3    10   ~ 0
-A18
 Text Label 9750 7300 0    10   ~ 0
 A19
 Text Label 9450 5700 0    10   ~ 0
 A19
 Text Label 9850 5400 3    10   ~ 0
 A19
-Text Label 9450 5600 0    10   ~ 0
-A20
-Text Label 9650 5400 3    10   ~ 0
-A20
 Text Label 10750 7600 1    10   ~ 0
 A20
 Text Label 8950 8600 2    10   ~ 0
@@ -663,10 +655,6 @@ Wire Wire Line
 Wire Wire Line
 	8950 7300 8750 7300
 Wire Wire Line
-	10050 5400 10050 6300
-Wire Wire Line
-	10050 6300 9950 6400
-Wire Wire Line
 	9750 7300 9950 7300
 Wire Wire Line
 	9400 5700 9850 5700
@@ -676,10 +664,7 @@ Wire Wire Line
 	9850 6300 9750 6400
 Connection ~ 9850 5700
 Wire Wire Line
-	9650 5800 9650 5400
-Wire Wire Line
 	10750 5800 10750 7600
-Connection ~ 9650 5800
 Wire Wire Line
 	8950 8600 8750 8600
 Wire Wire Line
@@ -828,10 +813,6 @@ Wire Bus Line
 Wire Bus Line
 	13250 6400 13250 9100
 Wire Bus Line
-	9950 6400 10050 6400
-Wire Bus Line
-	10050 6400 10050 8100
-Wire Bus Line
 	8650 8400 8650 9600
 Wire Bus Line
 	8650 9600 11450 9600
@@ -843,9 +824,28 @@ Wire Wire Line
 	8900 5750 8650 5750
 Wire Wire Line
 	8650 5750 8650 5600
+Wire Bus Line
+	10050 6400 10050 8100
+Wire Bus Line
+	9950 6400 10050 6400
+Wire Wire Line
+	10050 6300 9950 6400
+Wire Wire Line
+	10050 5400 10050 6300
+Wire Wire Line
+	9650 5400 9650 5800
 Wire Wire Line
 	9400 5800 10750 5800
+Text Label 9450 5800 0    10   ~ 0
+A20
+Text Label 9650 5450 1    10   ~ 0
+A20
+Connection ~ 9650 5800
 Wire Wire Line
-	10050 5600 9400 5600
+	9400 5600 10050 5600
 Connection ~ 10050 5600
+Text Label 10050 5450 1    10   ~ 0
+A18
+Text Label 9450 5600 0    10   ~ 0
+A18
 $EndSCHEMATC
